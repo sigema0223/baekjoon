@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class p2739{
     public static void main(String[] args) throws IOException{
         Scanner sc = new Scanner(System.in);
+        sc.close();
         int a = sc.nextInt();
         int product = 0;
         
