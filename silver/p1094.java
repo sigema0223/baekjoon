@@ -6,14 +6,24 @@ public class p1094{
         int finalLength = Integer.parseInt(br.readLine());
         int initialLength = 64, count = 0;
 
-        while(finalLength>0){
-            if(initialLength>finalLength){
+        while(true){
+            if(finalLength<initialLength){
                 initialLength/=2;
             }else{
                 finalLength-=initialLength;
                 count++;
             }
+            if(finalLength==0) break;
         }
+
+        // while(finalLength>0){
+        //     if(initialLength>finalLength){
+        //         initialLength/=2;
+        //     }else{
+        //         finalLength-=initialLength;
+        //         count++;
+        //     }
+        // }
         System.out.println(count);
     }
 }
