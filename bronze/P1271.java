@@ -1,8 +1,7 @@
 import java.io.*;
 import java.math.BigInteger;
-import java.math.BigInteger;
 
-public class trash {
+public class P1271 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] st = br.readLine().split(" ");
