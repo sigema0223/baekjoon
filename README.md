@@ -3,6 +3,7 @@
     1271  : 엄청난 부자2                : BigInteger types 사용
     2438  : 별찍기 -1
     2609  : 최대공약수와 최대공배수     : mod랑 더 efficient한 풀이 꼭 보기
+    2750  : 수 정렬하기                 : arraylist를 이용한 버블 소트 O(n^2)
     4153  : 직각삼각형                  : 왜 BufferedReader를 while(true)문 밖에다 선언한다해서 런타임에러가 안 생기는 거지?
     10950 : A+B -3
     10950 : A+B -4
