@@ -12,12 +12,20 @@ public class P1551{
         int K = Integer.parseInt(st.nextToken());
         int N = Integer.parseInt(st.nextToken());;
 
-
-
         String[] str = br.readLine().split(",");
-        for(int i=0;i<K;i++){System.out.println(str[i]);}
-        //아직 완성안됨
+        int[] arr = new int[K];
+        for (int i = 0; i < K; i++) {
+            arr[i] = Integer.parseInt(str[i]);
+        }
 
+        int[] result = new int[K];
 
+        for(int j=0;j<N;j++){
+            for(int i=0;i<K-1;i++){
+                result[i]=arr[i+1]-arr[i];
+            }
+        }
+        
+        for(int i=0;i<K-N;i++)  System.out.println(result[i]);
     }
 }
